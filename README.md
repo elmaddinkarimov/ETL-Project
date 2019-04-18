@@ -1,8 +1,8 @@
 # ETL Project Proposal
 
 Group members:
-Elmaddin Karimov
-Batbileg Enkhbat
+Elmaddin Karimov,
+Batbileg Enkhbat,
 Mukta Jathar
 
 
@@ -18,9 +18,9 @@ The data also includes a category_id field, which varies between regions. To ret
 
 # Proposed Transformation:
 •	Combine data of different regions (different csv) into one single table, include only the required regions.
-•	Clean-up the table to include the required columns.
-•	Use the associated JSON to map the category for each region into the combined table.
-•	Any other data clean-up and preparation as required.
+	Clean-up the table to include the required columns.
+	Use the associated JSON to map the category for each region into the combined table.
+	Any other data clean-up and preparation as required.
 
 # Proposed Load:
 MongoDB to be used to load the extracted and transformed data. Since the dataset would be derived by stitching together data for different regions, in case a need arises in future  to accommodate different types/structure of data for different regions, MongoDB will allow that.
